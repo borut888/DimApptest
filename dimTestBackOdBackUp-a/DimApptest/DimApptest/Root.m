@@ -41,7 +41,7 @@
 //    
 //    NSURLSession *session = [NSURLSession sessionWithConfiguration:sessionConfiguration];
 //    NSURLSessionDataTask *sessionDataTask = [session dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error){
-    NSURL *URL = [NSURL URLWithString:@"https://www.eclecticasoft.com/dim/content/DIM_Borut.xml"];
+    NSURL *URL = [NSURL URLWithString:@"https://www.eclecticasoft.com/dim/content/DIM.xml"];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     
     [NSURLConnection sendAsynchronousRequest:request
